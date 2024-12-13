@@ -1,0 +1,21 @@
+.container{
+  width: 90%;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  display: block;
+  width: 200px;
+  height: 200px;
+
+}
+.col-md-4{
+  width: 33.33%;
+}
+.shadow-sm{
+  padding: 1rem 1.2rem;
+  background-color: #fff;
+  border-radius: 8px;
+}

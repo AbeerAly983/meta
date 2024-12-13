@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    @for (item of products; track $index) {
+    <div class="col-md-4">
+      <div class="p-4 shadow-sm">
+        <img [src]="item.image" [routerLink]="['/productDetails',item.id]" class="w-100" alt="">
+        <p>{{item.title}}</p>
+      </div>
+    </div>
+    }
+  </div>
+</div>
